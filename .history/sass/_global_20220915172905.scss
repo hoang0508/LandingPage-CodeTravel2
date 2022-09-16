@@ -1,0 +1,17 @@
+button.button {
+  display: inline-block;
+  border: 0;
+  cursor: pointer;
+  color: $text-white;
+  &-acount {
+    background-color: transparent;
+    padding: 19px 23px;
+    border: 1.5px solid #777f96;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  &-search {
+    height: 74px;
+    padding: 27px 48px;
+  }
+}

@@ -1,0 +1,11 @@
+.header {
+  background-image: url("../images/header-img.png");
+  min-height: 800px;
+  background-size: cover;
+  background-repeat: repeat;
+  padding-top: 30px;
+  &-main {
+    display: flex;
+    align-items: center;
+  }
+}

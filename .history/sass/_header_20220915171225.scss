@@ -1,0 +1,101 @@
+.header {
+  background-image: url("../images/header-img.png");
+  min-height: 800px;
+  background-size: cover;
+  background-repeat: repeat;
+  padding-top: 30px;
+  &-main {
+    display: flex;
+    align-items: center;
+    margin-bottom: 135px;
+  }
+  &-logo {
+    margin-right: 261px;
+  }
+  &-menu {
+    &--list {
+      display: flex;
+      align-items: center;
+      gap: 0 42px;
+      margin-right: 225px;
+    }
+    &--link {
+      color: $text-white;
+      text-transform: lowercase;
+      font-size: 14px;
+    }
+  }
+  &-button {
+    margin-left: auto;
+  }
+  &-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 20px;
+  }
+  &-content {
+    text-align: center;
+    &--title {
+      max-width: 640px;
+      width: 100%;
+      margin: 0 auto;
+      font-size: 62px;
+      font-weight: 700;
+      color: $text-white;
+      margin-bottom: 20px;
+      letter-spacing: -0.01em;
+      line-height: 78px;
+    }
+    &--desc {
+      max-width: 493px;
+      margin: 0 auto;
+      color: #ffffff;
+      font-weight: 500;
+      mix-blend-mode: normal;
+      opacity: 0.88;
+      line-height: 28px;
+      margin-bottom: 80px;
+    }
+    &--form {
+      background-color: #ffffff;
+      padding: 23px 35px 24px 41px;
+      border-radius: 4px;
+      box-shadow: 0px 40px 80px -22px rgba(98, 89, 89, 0.09);
+      .form-down {
+        display: flex;
+        align-items: center;
+        &--col {
+          display: flex;
+          align-items: center;
+          gap: 0 13px;
+        }
+        &--text-border {
+          position: relative;
+          &::before {
+            position: absolute;
+            content: "";
+            width: 1px;
+            height: 15px;
+            background: #e5e5e5;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+        }
+        &--text-txt {
+          margin-right: ;
+        }
+        &--icon {
+          width: 16px;
+          height: 16px;
+          display: inline-block;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}

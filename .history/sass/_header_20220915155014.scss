@@ -1,0 +1,40 @@
+.header {
+  background-image: url("../images/header-img.png");
+  min-height: 800px;
+  background-size: cover;
+  background-repeat: repeat;
+  padding-top: 30px;
+  &-main {
+    display: flex;
+    align-items: center;
+    margin-bottom: 135px;
+  }
+  &-logo {
+    margin-right: 261px;
+  }
+  &-menu {
+    &--list {
+      display: flex;
+      align-items: center;
+      gap: 0 42px;
+      margin-right: 225px;
+    }
+    &--link {
+      color: $text-white;
+      text-transform: lowercase;
+      font-size: 14px;
+    }
+  }
+  &-content {
+    text-align: center;
+    &--title {
+      max-width: 640px;
+      width: 100%;
+      margin: 0 auto;
+      font-size: 62px;
+      font-weight: 700;
+      color: $text-white;
+      margin-bottom: 20px;
+    }
+  }
+}

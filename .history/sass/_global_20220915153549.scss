@@ -1,0 +1,11 @@
+.button {
+  display: inline-block;
+  border: 0;
+  cursor: pointer;
+  &-acount {
+    background-color: transparent;
+    padding: 19px 23px;
+    border: 1.5px solid #777f96;
+    border-radius: 4px;
+  }
+}
